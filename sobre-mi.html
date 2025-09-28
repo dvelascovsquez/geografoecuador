@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí - Marco Velasco</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 40px;
+            margin-top: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #667eea;
+            margin: 0 auto 20px;
+            object-fit: cover;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            color: #555;
+        }
+        
+        .content {
+            text-align: left;
+            margin-top: 30px;
+        }
+        
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .experience-summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .skill-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .skill-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .nav-btn {
+            background: #667eea;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        
+        .nav-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        
+        .highlight {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #2196f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="foto-perfil.jpeg" alt="Marco Velasco" class="profile-img">
+            
+            <h1>Marco Velasco Vásquez</h1>
+            <div class="subtitle">Geógrafo y GIS Analyst | Especialista en Análisis Espacial</div>
+            
+            <div class="contact-info">
+                <strong>📍 Quito, Ecuador | 📧 dmvelascofi@flacso.edu.ec | 📱 +593 958622332</strong>
+            </div>
+
+            <div class="nav-menu">
+                <a href="index.html" class="nav-btn">Inicio</a>
+                <a href="perfil.html" class="nav-btn">Perfil</a>
+                <a href="experiencia.html" class="nav-btn">Experiencia</a>
+                <a href="portafolio.html" class="nav-btn">Portafolio</a>
+                <a href="contacto.html" class="nav-btn">Contacto</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- PERFIL PROFESIONAL RESUMIDO -->
+            <div class="section">
+                <h2>👨‍💻 Perfil Profesional</h2>
+                
+                <div class="experience-summary">
+                    <p><strong>Geógrafo con 6+ años de experiencia</strong> en análisis espacial, GIS y planificación urbano-ambiental. Especializado en el uso de herramientas geoespaciales para la toma de decisiones en proyectos de desarrollo territorial.</p>
+                </div>
+
+                <div class="highlight">
+                    <h3>💼 Experiencia Clave Resumida</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Quito City Research Institute</strong> - Análisis de datos urbanos y género</li>
+                        <li><strong>Municipalidad de Alausí</strong> - GIS y actualización catastral</li>
+                        <li><strong>The Nature Conservancy & MAATE</strong> - Delineación de áreas de protección hídrica</li>
+                        <li><strong>UIC Barcelona</strong> - Investigación en vitalidad urbana de Quito</li>
+                        <li><strong>INEC</strong> - Cartografía censal y actualización de sectores</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- EDUCACIÓN -->
+            <div class="section">
+                <h2>🎓 Formación Académica</h2>
+                
+                <div style="display: grid; gap: 15px;">
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
+                        <h3 style="color: #2c3e50; margin-bottom: 5px;">Maestría en Estudios Urbanos</h3>
+                        <p style="color: #667eea; margin: 0;"><strong>FLACSO Ecuador</strong> | 2022</p>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
+                        <h3 style="color: #2c3e50; margin-bottom: 5px;">Licenciatura en Geografía y Medio Ambiente</h3>
+                        <p style="color: #667eea; margin: 0;"><strong>Universidad de las Fuerzas Armadas ESPE</strong> | 2017</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMPETENCIAS TÉCNICAS -->
+            <div class="section">
+                <h2>🛠️ Competencias Técnicas</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <strong>GIS Profesional</strong>
+                        <p>ArcGIS • QGIS • Geodatabases</p>
+                    </div>
+                    <div class="skill-item">
+                        <strong>Análisis de Datos</strong>
+                        <p>Python • R Studio • SPSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <strong>Cartografía</strong>
+                        <p>Mapas Temáticos • Diseño Cartográfico</p>
+                    </div>
+                    <div class="skill-item">
+                        <strong>Planificación</strong>
+                        <p>Urbana • Ambiental • Territorial</p>
+                    </div>
+                    <div class="skill-item">
+                        <strong>Campo</strong>
+                        <p>Topografía • GPS • Inspecciones</p>
+                    </div>
+                    <div class="skill-item">
+                        <strong>Gestión</strong>
+                        <p>Proyectos • Bases de Datos • Informes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESPECIALIZACIONES -->
+            <div class="section">
+                <h2>🌍 Áreas de Especialización</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                    <div style="background: #fff3e0; padding: 15px; border-radius: 8px; border-left: 4px solid #ff9800;">
+                        <h4 style="margin: 0 0 10px 0; color: #e65100;">Análisis Espacial</h4>
+                        <p style="margin: 0; font-size: 0.9em;">Geoestadística, interpolación, patrones espaciales</p>
+                    </div>
+                    
+                    <div style="background: #e8f5e8; padding: 15px; border-radius: 8px; border-left: 4px solid #4caf50;">
+                        <h4 style="margin: 0 0 10px 0; color: #2e7d32;">Gestión Ambiental</h4>
+                        <p style="margin: 0; font-size: 0.9em;">Áreas protegidas, impacto ambiental, recursos hídricos</p>
+                    </div>
+                    
+                    <div style="background: #e3f2fd; padding: 15px; border-radius: 8px; border-left: 4px solid #2196f3;">
+                        <h4 style="margin: 0 0 10px 0; color: #1565c0;">Planificación Urbana</h4>
+                        <p style="margin: 0; font-size: 0.9em;">Desarrollo territorial, estudios de densidad, accesibilidad</p>
+                    </div>
+                    
+                    <div style="background: #f3e5f5; padding: 15px; border-radius: 8px; border-left: 4px solid #9c27b0;">
+                        <h4 style="margin: 0 0 10px 0; color: #7b1fa2;">Cartografía Temática</h4>
+                        <p style="margin: 0; font-size: 0.9em;">Mapas censales, infraestructura, ordenamiento territorial</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IDIOMAS -->
+            <div class="section">
+                <h2>🗣️ Idiomas</h2>
+                
+                <div style="display: flex; gap: 20px; justify-content: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">🇪🇸</div>
+                        <strong>Español</strong>
+                        <p>Nativo</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">🇺🇸</div>
+                        <strong>Inglés</strong>
+                        <p>B2 (Intermedio Alto)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
